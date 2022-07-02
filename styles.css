@@ -1,19 +1,27 @@
+/* reset */
+
 * {
   margin: 0;
   padding: 0;
 }
+
+/* universal attributes */
 
 html {
   font-family: 'Open Sans', sans-serif;
   color: #f2f2f2;
 }
 
+/* hero page background image */
+
 .hero {
-  background-image: url(http://innovo.ltd/images/carousel02.jpg);
+  background-image: url(background-new.jfif);
   background-size: cover;
   width: 100vw;
   height: 100vh;
 }
+
+/* header container */
 
 .header {
   display: flex;
@@ -22,6 +30,8 @@ html {
   align-items: center;
   margin: 0 7em;
 }
+
+/* logo attributes */
 
 .logo {
   
@@ -36,6 +46,8 @@ html {
   font-size: 0.9rem;
   color: #C2C1C1;
 }
+
+/* menu attributes */
 
 .menu {
   display: flex;
@@ -62,6 +74,8 @@ html {
   border-bottom: 4px solid #1586F7;
 }
 
+/* main text attributes */
+
 .content {
   margin: 5em 0 0 7em;
 }
@@ -79,6 +93,8 @@ font-size: 3rem;
   font-size: 1rem;
   color: #C2C1C1;
 }
+
+/* button attributes */
 
 .btn-box {
   padding: 2em 0;
