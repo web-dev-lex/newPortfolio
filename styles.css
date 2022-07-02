@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  color: #f2f2f2;
+}
+
+.hero {
+  background-image: url(http://innovo.ltd/images/carousel02.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 5em;
+  align-items: center;
+  margin: 0 7em;
+}
+
+.logo {
+  
+  padding-top: 1.5em;
+}
+
+.logo h3 {
+  font-size: 1.5rem;
+}
+
+.logo span {
+  font-size: 0.9rem;
+  color: #C2C1C1;
+}
+
+.menu {
+  display: flex;
+  
+}
+
+.menu li {
+  list-style: none;
+  width: 7em;
+  text-align: center;
+  padding: 2em 0;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #f2f2f2;
+  width: 7em;
+  padding: 1em;
+  text-align: center;
+  
+}
+
+.active {
+  border-bottom: 4px solid #1586F7;
+}
+
+.content {
+  margin: 5em 0 0 7em;
+}
+
+.content h2 {
+font-size: 3rem;
+}
+
+.content p {
+  font-size: 1.5rem;
+  padding: 1em 0;
+}
+
+.content span {
+  font-size: 1rem;
+  color: #C2C1C1;
+}
+
+.btn-box {
+  padding: 2em 0;
+}
+
+.btn-box button {
+  border: none;
+  padding: 1em 2em;
+  background-color: #1586F7;
+  color: #f2f2f2;
+  border-radius: 2em;
+  transition: 0.5s;
+  font-weight: 600;
+}
+
+.btn-box button:hover {
+  box-shadow: 0 0 15px #f2f2f2;
+}
