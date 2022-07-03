@@ -1,0 +1,4 @@
+#ignore all image files
+*.jfif
+*.jpg
+*.png

@@ -8,12 +8,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <title>Document</title>
+  <title>Alexi Antonatos</title>
 </head>
 <body>
   
-  <section class="hero">
-    
+  <!--background image for the entire page-->
+  <main class="hero">
+
+    <!--header with logo and navigation bar-->
     <header class="header">
       <div class="logo">
         <h3>ALEXI ANTONATOS</h3>
@@ -23,29 +25,54 @@
       <nav>
         <ul class="menu">
           <li class="active"><a href="#">HOME</a></li>
-          <li><a href="#">PROJECTS</a></li>
+          <li><a href="projects.html">PROJECTS</a></li>
           <li><a href="#">CONTACT</a></li>
         </ul>
       </nav>
     </header>
 
+    <!--social links on on right side of page for screens >= 850px-->
+    <div class="social-links">
+      <a href="https://github.com/web-dev-lex" class="github">
+        <img src="github-white.png" alt="github">
+      </a>
+      <a href="https://twitter.com/webdevlex35" class="twitter">
+        <img src="twitter-white.png" alt="twitter">
+      </a>
+    </div>
+
+    <!--main content of the page-->
     <div class="content">
       <h2>
-        Hello, <br/>I'm Alexi. 
+        Hello, <br/>
+        I'm Alexi. 
       </h2>
       <p>
-        I am self-taught and have a strong passion <br/>for web development and computer programming.
+        I am self-taught and have a strong passion <br/>
+        for web development and computer programming.
       </p>
       <span>
         HTML &nbsp&nbsp / &nbsp&nbsp CSS &nbsp&nbsp / &nbsp&nbsp JAVASCRIPT
       </span>  
 
       <div class="btn-box">
-        <a href="#"><button>SEE MY WORK</button></a>
+        <a href="projects.html">
+          <button>SEE MY WORK</button>
+        </a>
       </div>
-
     </div>
-  </section>
+
+    <!--social links on bottom of page for screens < 850px-->
+    <div class="social-links-2">
+      <a href="https://github.com/web-dev-lex" class="github-2">
+        <img src="github-white.png" alt="github">
+      </a>
+      <a href="https://twitter.com/webdevlex35" class="twitter-2">
+        <img src="twitter-white.png" alt="twitter">
+      </a>
+    </div>
+
+  </main>
 
 </body>
 </html>
