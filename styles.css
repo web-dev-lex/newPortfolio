@@ -171,7 +171,6 @@ font-size: 3rem;
   display: flex;
   flex-direction: column;
   width: 50%;
-  
 }
 
 .project-title-box {
@@ -204,7 +203,7 @@ font-size: 3rem;
 }
 
 .closing-bracket {
-  padding: 0 0 1em 1em;
+  padding: 0.5em 0 1em 1em;
 }
 
 .img-box {
@@ -244,15 +243,11 @@ font-size: 3rem;
 
 .main-box a {
   color: #f2f2f2;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .main-box a:hover {
   color: #1586F7;
-}
-
-.contact-title-box  {
-  
 }
 
 .contact-title-box h1 {
@@ -285,6 +280,31 @@ font-size: 3rem;
   padding: 0.2em 0;
 }
 
+@media only screen and (max-width: 1250px) {
+  .projects-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-title-box {
+    text-align: center;
+  }
+
+  .project-box {
+    width: 100%;
+    height: auto;
+  }
+
+  .project-box img {
+    position: static;
+  }
+
+  .info-para {
+    height: auto;
+  }
+}
+
 @media only screen and (max-width: 850px) {
   .header {
     justify-content: center;
@@ -311,6 +331,14 @@ font-size: 3rem;
   .social-links-2 img {
     width: 34px;
     padding: 0 2em;
+  }
+
+  .contact-background {
+    height: auto;
+  }
+
+  .main-box {
+    padding: 2em;
   }
 }
 
@@ -339,5 +367,18 @@ font-size: 3rem;
 
   .content span {
     font: 0.5rem;
+  }
+  
+  .menu li {
+    width: auto;
+  }
+  
+  .menu li a {
+    font-size: 0.8rem;
+    width: auto;
+  }
+
+  .info-para {
+    font-size: 0.8rem;
   }
 }
