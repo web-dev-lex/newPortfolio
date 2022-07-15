@@ -10,7 +10,16 @@
 html {
   font-family: 'Open Sans', sans-serif;
   color: #f2f2f2;
+  box-sizing: border-box;
 }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
 
 /* hero page background image */
 
@@ -41,12 +50,14 @@ html {
   position: fixed;
   top: 46%;
   left: 95%;
+  z-index: 2;
 }
 
 .twitter {
   position: fixed;
   top: 54%;
   left: 95%;
+  z-index: 2;
 }
 
 .social-links-2 {
@@ -189,6 +200,7 @@ font-size: 3rem;
   font-size: 1rem;
   color: #C2C1C1;
   padding: 0.5em 5em;
+  height: 5em;
 }
 
 .closing-bracket {
@@ -205,11 +217,72 @@ font-size: 3rem;
   filter: brightness(60%);
   transition: 0.5s;
   border-radius: 1em;
+  position: relative;
+  z-index: 1;
 }
 
 .project-box img:hover {
-  filter: brightness(110%);
+  filter: brightness(100%);
   box-shadow: 0 0 20px #1586F7;
+}
+
+/* Contacts page */
+
+.contact-background {
+  width: 100vw;
+  height: 100vh;
+  background-color: #222222;
+}
+
+.main-box {
+  padding: 3em 0 0 20em;
+}
+
+.main-box h4 {
+  padding-left: 10px;
+}
+
+.main-box a {
+  color: #f2f2f2;
+  transition: 0.3s;
+}
+
+.main-box a:hover {
+  color: #1586F7;
+}
+
+.contact-title-box  {
+  
+}
+
+.contact-title-box h1 {
+  font-size: 4rem;
+  padding-left: 10px;
+}
+
+.contact-phone-box {
+  padding-top: 2em;
+  font-size: 1.5rem;
+}
+
+.contact-email-box {
+  padding-top: 1em;
+  font-size: 1.5rem;
+}
+
+.contact-linkedin-box {
+  padding-top: 2em;
+  font-size: 1.5rem;
+}
+
+.elements {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.7rem;
+  color: #686768;
+}
+
+.pad {
+  padding: 0.2em 0;
 }
 
 @media only screen and (max-width: 850px) {
